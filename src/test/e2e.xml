@@ -1,0 +1,46 @@
+<suite name="End-to-End Testing">
+    <test name="unit.NumberGenerator">
+        <classes>
+            <class name="unit.NumberGeneratorTest" />
+        </classes>
+    </test>
+
+    <test name="unit.Human">
+        <parameter name="firstname" value="Robert" />
+        <parameter name="middlename" value="O" />
+        <parameter name="lastname" value="Banks" />
+        <classes>
+            <class name="unit.HumanTest" />
+        </classes>
+    </test>
+
+    <test name="Login">
+        <classes>
+            <class name="selenium.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="SeleniumCart">
+        <classes>
+            <class name="selenium.SeleniumCartTest"/>
+        </classes>
+    </test>
+
+    <test name="Cranberry">
+        <classes>
+            <class name="selenium.CranberryTest" />
+        </classes>
+    </test>
+
+    <test name="Harmony">
+        <classes>
+            <class name="selenium.HarmonyTest" />
+        </classes>
+    </test>
+
+    <test name="Tribe Live">
+        <classes>
+            <class name="selenium.TribeliveTest" />
+        </classes>
+    </test>
+</suite>
